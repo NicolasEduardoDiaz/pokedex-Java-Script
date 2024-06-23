@@ -24,3 +24,111 @@
     --type-steel: #B8B8D0;
     --type-fairy: #F0B6BC;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--color-black);
+    font-family: 'Rubik', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button{
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+}
+
+.normal{
+    background-color: var(--type-normal);
+    color: var(--color-black);
+}
+
+.fire{
+    background-color: var(--type-fire);
+    color: var(--color-black);
+}
+
+.water{
+    background-color: var(--type-water);
+    color: var(--color-white);
+}
+
+.grass {
+    background-color: var(--type-grass);
+    color: var(--color-black);
+}
+
+.electric{
+    background-color: var(--type-electric);
+    color: var(--color-black);
+}
+
+.ice{
+    background-color: var(--type-ice);
+    color: var(--color-black);
+}
+
+.figthing{
+    background-color: var(--type-fighting);
+    color: var(--color-white);
+}
+
+.poison{
+    background-color: var(--type-poison);
+    color: var(--color-white);
+}
+
+.ground{
+    background-color: var(--type-ground);
+    color: var(--color-black);
+}
+
+.flying{
+    background-color: var(--type-flying);
+    color: var(--color-black);
+}
+
+.psychic{
+    background-color: var(--type-psychic);
+    color: var(--color-black);
+}
+
+.bug{
+    background-color: var(--type-bug);
+    color: var(--color-black);
+}
+
+.rock{
+    background-color: var(--type-rock);
+    color: var(--color-black);
+}
+
+.ghost{
+    background-color: var(--type-ghost);
+    color: var(--color-white);
+}
+
+.dark{
+    background-color: var(--type-dark);
+    color: var(--color-white);
+}
+
+.dragon{
+    background-color: var(--type-dragon);
+    color: var(--color-white);
+}
+
+.steel{
+    background-color: var(--type-steel);
+    color: var(--color-black);
+}
+
+.fairy{
+    background-color: var(--type-fairy);
+    color: var(--color-black);
+}
